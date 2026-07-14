@@ -7,7 +7,6 @@ enum class TimePreference { MORNING = 0, AFTERNOON = 1, EVENING = 2 };
 
 // INHERITANCE: PersonalTask "is-a" Task
 // Personal tasks care about WHEN the user is naturally good at that kind of work
-// (research shows most people handle hard tasks better in the morning).
 class PersonalTask : public Task {
 private:
     TimePreference preference;
