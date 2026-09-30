@@ -9,7 +9,7 @@ int PersonalTask::getPriorityScore() const {
     int base = difficultyFactor * 4;
 
     // "Humanized" bonus: hard tasks matched to morning score highest,
-    // easy tasks matched to evening score decently too (low-energy time).
+    // easy tasks matched to evening score decently too.
     int bonus = 5; // default, mismatched preference
     if (difficulty == Difficulty::HARD && preference == TimePreference::MORNING) {
         bonus = 15;
