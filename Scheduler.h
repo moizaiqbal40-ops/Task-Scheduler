@@ -11,7 +11,6 @@ class Scheduler {
 private:
     std::vector<Task*> tasks;
 
-    // Keeps the vector sorted so tasks[0] is always the highest priority task.
     void resortByPriority();
 
 public:
