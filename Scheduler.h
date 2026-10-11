@@ -15,7 +15,7 @@ private:
 
 public:
     Scheduler() = default;
-    ~Scheduler(); // frees all heap-allocated tasks
+    ~Scheduler(); 
 
     void addTask(Task* task);
     void displayQueue() const;
