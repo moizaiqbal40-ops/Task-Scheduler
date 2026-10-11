@@ -19,7 +19,7 @@ public:
 
     void addTask(Task* task);
     void displayQueue() const;
-    bool completeTopTask();          // marks the highest priority task as done
+    bool completeTopTask();          
     void removeCompletedTasks();
 
     int pendingCount() const;
